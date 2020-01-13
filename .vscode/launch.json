@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EmployeeDashBoardServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.App.EmployeeDashBoardServiceApplication",
+            "projectName": "DashBoardService"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EmployeeSearchServiceApplication",
             "request": "launch",
             "mainClass": "com.example.App.EmployeeSearchServiceApplication",
