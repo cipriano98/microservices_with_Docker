@@ -1,4 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "disabled",
-    "inline-bookmarks.view.showVisibleFilesOnly": false
+    "inline-bookmarks.view.showVisibleFilesOnly": false,
+    "java.dependency.syncWithFolderExplorer": false
 }

@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.example.App.domain.model.EmployeeInfo;
 
 //@EnableFeignClients
-@FeignClient(url = "http://localhost:8080", name = "EmployeeSearch")
-@RibbonClient(name = "EmployeeSearch")
+@FeignClient(url = "http://localhost:8080/employee", name = "SearchService")
+@RibbonClient(name = "SearchService")
 public interface ServiceProxy {
-	@RequestMapping("/employee/find/{id}")
+	@RequestMapping("/find/{id}")
 	public EmployeeInfo findById(@PathVariable(value = "id") Long id);
 
-	@RequestMapping("/employee/findall")
+	@RequestMapping("/findall")
 	public Collection<EmployeeInfo> findAll();
 }

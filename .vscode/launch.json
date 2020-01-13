@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EmployeeZuulServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.EmployeeZuulService.EmployeeZuulServiceApplication"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EmployeeApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.example.App.EmployeeApiGatewayApplication",
+            "projectName": "ZullServer"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EmployeeDashBoardServiceApplication",
             "request": "launch",
             "mainClass": "com.example.App.EmployeeDashBoardServiceApplication",
